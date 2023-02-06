@@ -22,12 +22,12 @@ classifiers = [
 keywords = ['aiida', 'abinit']
 requires-python = '>=3.8'
 dependencies = [
-    'aiida_core[atomic_tools]~=1.6.3,<3.0.0',
-    'aiida-pseudo~=0.6.1',
+    'aiida_core[atomic_tools]~=2.0',
+    'aiida-pseudo~=1.0',
     'abipy>=0.8.0',
     'packaging',
     'psycopg2-binary~=2.8.3',
-    'pymatgen>=2022.1.20',
+    'pymatgen>=2022.1.20,<v2023.1.9',
     'numpy',
     'importlib_resources'
 ]
